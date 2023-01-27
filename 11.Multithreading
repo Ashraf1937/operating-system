@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <pthread.h>
-// when its name is specified in pthread_create()
 void *myThreadFun(void *vargp)
 {
     sleep(1);
